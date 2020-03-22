@@ -1,0 +1,35 @@
+
+.cards__title {
+    margin-top: 40px;
+    max-width: 382px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 24px;
+    text-align: start;
+    margin-bottom: 14px;
+}
+
+@media screen and (max-width:768px) {
+   
+    .cards__title {
+        order:2;
+        font-size: 16px;
+        margin-bottom: 24px;
+        margin-top:0;
+        text-align: start;
+        
+    }
+}
+
+@media screen and (max-width:400px) {
+   
+    .cards__title {
+        order:2;
+        font-size: 14px;
+        margin-bottom: 24px;
+        margin-top:0;
+        text-align: center;
+        
+    }
+}

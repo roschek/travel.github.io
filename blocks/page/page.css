@@ -1,0 +1,22 @@
+.page {
+    max-width: 1182px;
+    margin: 30px auto 0 auto;
+}
+
+@media screen and (max-width:928px) {
+    
+    .page {
+        width: 100%;
+        
+        
+    }
+}
+
+@media screen and (max-width:375px) {
+    
+    .page {
+        
+        margin:0;
+        
+    }
+}

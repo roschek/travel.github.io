@@ -1,0 +1,26 @@
+@import url('../video/__title/video__title.css');
+@import url('../video/__subtitle/video__subtitle.css');
+@import url('../video/__links/video__links.css');
+@import url('../video/__link/video__link.css');
+@import url('../video/__content/video__content.css');
+@import url('../video/__date/video__date.css');
+@import url('../video/__director/video__director.css');
+@import url('../video/__sign/video__sign.css');
+.video {
+    display: flex;
+    margin-top: 70px;
+    flex-direction: column;
+    margin-left:0;
+    margin-right:0;
+}
+
+@media screen and (max-width:1024px) {
+   
+    .video {
+        max-width: 928px;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top: 80px;
+        
+    }
+}

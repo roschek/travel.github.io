@@ -1,0 +1,17 @@
+
+.footer__nav {
+    margin-top: 0;
+    margin-left: 0;
+    padding-left: 0;
+    display: inline-flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+@media screen and (max-width:510px) {
+  
+    .footer__nav {
+        margin-left: 16px;
+        flex-direction: column;
+    }
+}

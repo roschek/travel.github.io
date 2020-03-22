@@ -1,0 +1,13 @@
+
+.intro__bold {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+
+@media screen and (max-width:375px) {
+    .intro__bold {
+        font-size: 12px;
+}}

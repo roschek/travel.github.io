@@ -1,0 +1,25 @@
+@import url('../cards/__item/cards__item.css');
+@import url('../cards/__image/cards__image.css');
+@import url('../cards/__title/cards__title.css');
+@import url('../cards/__description/cards__description.css');
+
+.cards {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: start;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width:95%;
+}
+
+@media screen and (max-width:768px) {
+    
+    .cards {
+        flex-direction: column;
+        justify-content: center;
+        
+        align-items: center;
+    }
+}

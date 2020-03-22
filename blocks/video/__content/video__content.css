@@ -1,0 +1,24 @@
+
+.video__content {
+    
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right:0;
+    margin-bottom: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+@media screen and (max-width:768px) {
+    .video__content {
+        
+        margin-bottom: 0;
+        padding-bottom: 0;
+        
+    }
+    
+
+}
+

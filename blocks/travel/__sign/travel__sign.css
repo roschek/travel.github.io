@@ -1,0 +1,18 @@
+
+.travel__sign {
+    position: relative;
+    align-self: flex-start;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    text-transform: uppercase;
+    line-height: 12px;
+    letter-spacing: 0.15em;
+}
+
+@media screen and (max-width:768px) {
+    .travel__sign {
+        margin-left:24px;
+       
+    }
+}

@@ -1,0 +1,43 @@
+@import url('../travel/__title/travel__title.css');
+@import url('../travel/__subtitle/travel__subtitle.css');
+@import url('../travel/__photo/travel__photo.css');
+@import url('../travel/__sign/travel__sign.css');
+
+.travel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 48px;
+    margin-left: auto;
+}
+
+@media screen and (max-width:1024px) {
+   
+    .travel {
+        max-width: 928px;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top: 45px;
+      
+    }
+}
+
+
+@media screen and (max-width:768px) {
+   
+    .travel {
+        
+        margin-top: 65px;
+       
+    }
+}
+
+@media screen and (max-width:375px) {
+   
+    .travel {
+        
+        margin-top: 35px;
+       
+    }
+}
+

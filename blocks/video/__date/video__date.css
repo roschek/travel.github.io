@@ -1,0 +1,40 @@
+
+.video__date {
+    
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 13px;
+    letter-spacing: 0.3em;
+    margin-top: 80px;
+    margin-left:20px;
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width:1028px) {
+    
+    .video__date {
+        margin-top: 40px;
+        
+        
+    }
+}
+
+@media screen and (max-width:768px) {
+    
+    .video__date {
+        font-size: 12px;
+        margin-top: 10px;
+        
+    }
+}
+
+@media screen and (max-width:375px) {
+  
+    .video__date {
+        font-size: 12px;
+        
+    }
+}

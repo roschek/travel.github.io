@@ -1,0 +1,23 @@
+
+.place__url {
+    display: inline-block;
+    max-width: 150px;
+    margin-left: 0;
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.75rem;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    color: #AAAAAA;
+    align-self: end;
+}
+
+
+
+@media screen and (max-width:510px) {
+   
+    .place__url {
+        display: none;
+    }
+}

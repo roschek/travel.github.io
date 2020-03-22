@@ -1,0 +1,47 @@
+
+.cover__picture {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    background-image: url(../../../images/cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    text-decoration: none;
+   }
+
+   .cover__picture:hover {
+    box-shadow: 0 0 0 900px rgba(0, 0, 0, 0.8) inset;
+}
+
+@media screen and (max-width:1024px) {
+   
+    .cover__picture {
+        width: 100%;
+        min-height: 562px;
+    }
+}
+
+@media screen and (max-width:768px) {
+   
+    .cover__picture {
+        min-height: 500px;
+    }
+}
+
+@media screen and (max-width:400px) {
+   
+    .cover__picture {
+        min-height: 272px;
+    }
+}
+
+@media screen and (max-width:320px) {
+   
+    .cover__picture {
+        min-height: 216px;
+    }
+}

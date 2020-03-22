@@ -1,0 +1,17 @@
+.wrap {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    color: white;
+    max-width: 1440px;
+    margin: 30px auto 0 auto;
+    background-color: #2A2C2F;
+}
+
+@media screen and (max-width:1024px) {
+    .wrap {
+        width: 100%;
+        margin-left:auto;
+        margin-right:auto;
+       
+    }
+}
+

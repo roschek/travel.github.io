@@ -1,0 +1,26 @@
+
+.place__link {
+    display: inline-block;
+    min-width: 200px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 30px;
+    text-decoration-line: underline;
+    color: white;
+    letter-spacing: normal;
+    align-self: end;
+}
+
+
+.place__link:hover {
+    opacity: 70%;
+    padding-right: 0;
+}
+
+@media screen and (max-width:510px) {
+   
+    .place__link {
+        display: none;
+    }
+}

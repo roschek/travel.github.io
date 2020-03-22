@@ -1,0 +1,17 @@
+
+.place__photo {
+    width: 100%;
+    min-height: 40%;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+@media screen and (max-width:510px) {
+   
+    .place__photo {
+        width: 100%;
+        margin:0 auto;
+        
+    
+}
+}

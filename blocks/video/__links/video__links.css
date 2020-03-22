@@ -1,0 +1,33 @@
+.video__links {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto 0 auto;
+    justify-content: space-around;
+    margin-top: 30px;
+    width: calc(100% - 96px);
+    
+}
+
+@media screen and (max-width:768px) {
+    
+    .video__links {
+        width: calc(100% - 48px);
+       
+}}
+
+
+@media screen and (max-width:500px) {
+    .video__links {
+        max-width: 343px;
+        flex-direction: column;
+        margin: 30px auto 20px auto;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .video__links {
+        max-width: 288px;
+        
+    }
+}

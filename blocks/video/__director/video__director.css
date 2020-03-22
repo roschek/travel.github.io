@@ -1,0 +1,28 @@
+
+.video__director {
+    margin-top: 10px;
+    margin-left:20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 15px;
+    color: white;
+    text-decoration: none;
+} 
+
+@media screen and (max-width:1028px) {
+    
+    .video__director {
+        
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    
+    .video__director {
+        font-size: 14px;
+        
+        padding-bottom: 10px;
+    }
+}

@@ -1,0 +1,12 @@
+
+.cards__item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-right: 15px;
+    margin-top: 0;
+}
+
+.cards__item:last-child {
+    margin-right: 0;
+}

@@ -1,0 +1,44 @@
+
+.travel__title {
+    display: block;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 93px;
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width:768px) {
+    .travel__title {
+        
+        max-width: 720px;
+         font-size: 96px;
+        line-height: 73px;
+        
+    }
+}
+
+@media screen and (max-width:750px) {
+   
+    .travel__title {
+        
+        font-size: 60px;
+        line-height: 44px;
+        
+        
+    }
+}
+
+@media screen and (max-width:500px) {
+   
+    .travel__title {
+        
+        font-size: 40px;
+        line-height: 44px;
+        word-wrap:break-word;
+        
+    }
+}

@@ -1,0 +1,31 @@
+
+.video__sign {
+    
+    margin-top: 0;
+    margin-left: 20px;
+    max-width: 300px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.25rem;
+    line-height: 39px;
+    margin-bottom:20px;
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width:768px) {
+    
+    .video__sign {
+        
+        margin-top: 10px;
+        font-size: 24px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width:375px) {
+  
+    .video__sign {
+        font-size: 24px;
+    }
+}

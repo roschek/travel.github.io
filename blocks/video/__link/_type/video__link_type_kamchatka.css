@@ -1,0 +1,31 @@
+
+.video__link_type_kamchatka {
+    background-image: url(../../../../images/kamchatka.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    width: 100%;
+    text-decoration: none;
+}
+
+.video__link_type_kamchatka:hover {
+    box-shadow: 0 0 0 900px rgba(0, 0, 0, 0.8) inset;
+}
+
+@media screen and (max-width:768px) {
+    
+    
+    .video__link_type_kamchatka {
+        width: 100%;
+       
+    }
+}
+
+@media screen and (max-width:500px) {
+    
+    
+    .video__link_type_kamchatka {
+        margin: 15px auto 0 auto;
+        width: 100%;
+    }
+}

@@ -1,0 +1,14 @@
+.content__container {
+    max-width: 980px;
+    margin:0 auto 0 auto;
+}
+
+@media screen and (max-width:980px) {
+    
+    .content__container {
+        max-width: 99%;
+        margin-left:auto;
+        margin-right:auto;
+       
+    }
+}
